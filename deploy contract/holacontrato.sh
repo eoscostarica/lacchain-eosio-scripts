@@ -1,4 +1,4 @@
-deploy_holacontrato_contracts_to_lacchain() {   
+deploy_holacontrato() {   
     echo 'Deploy holacontrato'
     mkdir -p ./stdout/holacontrato
     TEMP_DIR=./stdout/holacontrato
@@ -19,4 +19,4 @@ deploy_holacontrato_contracts_to_lacchain() {
     cleos -u <EOS_API_URL> -r "Accept-Encoding: identity" push transaction $TEMP_DIR/tx4.json -p costarica@writer -p holacontrato@active
 }
 
-deploy_holacontrato_contracts_to_lacchain
+deploy_holacontrato

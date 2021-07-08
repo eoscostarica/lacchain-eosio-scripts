@@ -1,4 +1,4 @@
-holacontrato_lacchain() {
+run_holacontrato() {
   echo 'Ejecutar holacontrato'
   mkdir -p ./stdout/holacontrato
   TEMP_DIR=./stdout/holacontrato
@@ -10,4 +10,4 @@ holacontrato_lacchain() {
   cleos -u https://lacchain.eosio.cr push transaction $TEMP_DIR/tx4.json -p costarica@writer -p holacontrato@active
 }
 
-holacontrato_lacchain
+run_holacontrato

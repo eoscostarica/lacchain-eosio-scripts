@@ -1,7 +1,7 @@
 
 const { eosioConfig } = require('config')
 
-const holacontrato_lacchain = ({
+const run_holacontrato = ({
   contractName = 'holacontrato',
   action = 'hola',
   eosio,
@@ -41,5 +41,5 @@ const holacontrato_lacchain = ({
   )
 
 module.exports = {
-  holacontrato_lacchain
+  run_holacontrato
 }
