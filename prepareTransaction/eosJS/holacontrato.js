@@ -1,8 +1,10 @@
+
+const eosUtil = require('./eos')
 const { eosioConfig } = require('config')
 
-const addTransaction = ({
-  contractName = eosioConfig.eosioAccount,
-  action = 'dispatch',
+const run_holacontrato = ({
+  contractName = 'holacontrato',
+  action = 'hola',
   eosio,
   ...data
 }) =>
@@ -40,5 +42,5 @@ const addTransaction = ({
   )
 
 module.exports = {
-  addTransaction
+  run_holacontrato
 }
