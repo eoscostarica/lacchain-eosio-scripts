@@ -37,7 +37,7 @@ Este repositorio contiene scripts de ejemplo para compilar contratos inteligente
 │       └── transacction.js
 │	└── shellScript
 │		└── holacontrato.sh
-├── lacchain-eosio-logo.png ............. Imagen de LACChain EOSIO
+├── lacchain-eosio-logo.png ............. Logo de LACChain EOSIO
 ├── LICENSE .................. Términos y Condiciones
 └── README.md ................ Especificación del repositorio
 ```
