@@ -29,15 +29,14 @@ Este repositorio contiene scripts de ejemplo para compilar contratos inteligente
 ```text title="./lacchain-eosio-scripts"
 /
 ├── deployContract
-│   └── holacontrato.cpp
-│   └── holacontrato.sh
+│   └── holacontrato.cpp .................. Se muestra el contrato holacontrato que se encuentra en la red https://lacchain.eosio.online/accounts
+│   └── holacontrato.sh .................. Se muestra cómo compilar para el contrato holacontrato
 ├── prepareTransaction
 │   └── eosJS
-│       └── holacontrato.js
-│       └── transacction.js
+│       └── holacontrato.js .................. Se muestra cómo preparar una transacción para el contrato holacontrato por medio de eosJS
+│       └── transacction.js .................. Se muestra cómo preparar una transacción por medio de eosJS
 │	└── shellScript
-│		└── holacontrato.sh
-├── lacchain-eosio-logo.png ............. Logo de LACChain EOSIO
+│		└── holacontrato.sh .................. Se muestra cómo preparar una transacción para el contrato holacontrato por medio de sh
 ├── LICENSE .................. Términos y Condiciones
 └── README.md ................ Especificación del repositorio
 ```
@@ -68,9 +67,11 @@ LACChain es la Alianza Global para el desarrollo del ecosistema blockchain en Am
 ## Acerca de EOS Costa Rica
 
 <br>
-<center>
-<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" width="400" >
-</center>
+<p align="center">
+	<a href="https://eosio.lacchain.net">
+		<img src="https://raw.githubusercontent.com/eoscostarica/design-assets/master/logos/eosCR/fullColor-horizontal-transparent-white.png" width="400">
+	</a>
+</p>
 <br>
 
 EOS Costa Rica es un productor de bloques independiente, autofinanciado y de bare-metal de Genesis que proporciona una infraestructura estable y segura para EOSIO blockchains. Apoyamos el software de código abierto para nuestra comunidad al mismo tiempo que ofrecemos desarrollo de blockchain empresarial y desarrollo de contratos inteligentes personalizados para nuestros clientes.
