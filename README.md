@@ -36,7 +36,7 @@ Este repositorio contiene scripts de ejemplo para compilar contratos inteligente
 │       └── holacontrato.js .................. Se muestra cómo preparar una transacción para el contrato holacontrato por medio de eosJS
 │       └── transacction.js .................. Se muestra cómo preparar una transacción por medio de eosJS
 │	└── shellScript
-│		└── holacontrato.sh .......... Se muestra cómo preparar una transacción para el contrato holacontrato por medio de sh
+│		└── holacontrato.sh .................. Se muestra cómo preparar una transacción para el contrato holacontrato por medio de sh
 ├── LICENSE .................................. Términos y Condiciones
 └── README.md ................................ Especificación del repositorio
 ```
