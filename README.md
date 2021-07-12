@@ -29,16 +29,16 @@ Este repositorio contiene scripts de ejemplo para compilar contratos inteligente
 ```text title="./lacchain-eosio-scripts"
 /
 ├── deployContract
-│   └── holacontrato.cpp .................. Se muestra el contrato holacontrato que se encuentra en la red https://lacchain.eosio.online/accounts
-│   └── holacontrato.sh .................. Se muestra cómo compilar para el contrato holacontrato
+│   └── holacontrato.cpp ..................... Se muestra el contrato holacontrato que se encuentra en la red https://lacchain.eosio.online/accounts
+│   └── holacontrato.sh ...................... Se muestra cómo compilar para el contrato holacontrato
 ├── prepareTransaction
 │   └── eosJS
 │       └── holacontrato.js .................. Se muestra cómo preparar una transacción para el contrato holacontrato por medio de eosJS
 │       └── transacction.js .................. Se muestra cómo preparar una transacción por medio de eosJS
 │	└── shellScript
-│		└── holacontrato.sh .................. Se muestra cómo preparar una transacción para el contrato holacontrato por medio de sh
-├── LICENSE .................. Términos y Condiciones
-└── README.md ................ Especificación del repositorio
+│		└── holacontrato.sh .......... Se muestra cómo preparar una transacción para el contrato holacontrato por medio de sh
+├── LICENSE .................................. Términos y Condiciones
+└── README.md ................................ Especificación del repositorio
 ```
 
 ## Licencia
